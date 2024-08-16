@@ -6,3 +6,7 @@
 
 # 1. qr-code-generator  
 
+# 2. Password Checker
+
+# 3. Jumping latter animation
+
