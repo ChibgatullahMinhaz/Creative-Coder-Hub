@@ -43,7 +43,7 @@ Generat.addEventListener('click', () => {
 
         buttonText.style.display = 'inline'; // Show button text
         loadingSpinner.style.display = 'none'; // Hide loading spinner
-    }, 2000); // Adjust delay as needed
+    }, 1000); 
 });
 
 Copy.addEventListener('click', async () => {
