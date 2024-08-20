@@ -16,4 +16,10 @@
 
 # 6. Weight Converter
 
-# TEAMP CONVETER
+# 7. TEAMP CONVETER
+
+# 8. Vowel Counter
+
+# 9. Testimonials slider 
+
+# 10. Sticky navigation bar or scroll
