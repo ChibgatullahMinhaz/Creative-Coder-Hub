@@ -22,7 +22,7 @@
 
 # 9.Scroll Animation
 
-# 12. Multiplication Game with js and html
+# 10. Multiplication Game with js and html
 
 # 13. Mini Celender 
 
