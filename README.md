@@ -28,7 +28,11 @@
 
 # 12. coundown to new Year 
 
-# 15. Build a Pdomodoro timer project
+# 13. Build a Pdomodoro timer
+
+# 14. Sticky Navbar
+
+# 15. Testomonial Slider
 
 # 16. Mouseover Event
 
