@@ -24,9 +24,9 @@
 
 # 10. Multiplication Game with js and html
 
-# 13. Mini Celender 
+# 11. Mini Celender 
 
-# 14. coundown to new Year 
+# 12. coundown to new Year 
 
 # 15. Build a Pdomodoro timer project
 
