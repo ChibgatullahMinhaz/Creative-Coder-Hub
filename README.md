@@ -20,6 +20,36 @@
 
 # 8. Vowel Counter
 
-# 9. Testimonials slider 
+# 9.Scroll Animation
 
-# 10. Sticky navigation bar or scroll
+# 12. Multiplication Game with js and html
+
+# 13. Mini Celender 
+
+# 14. coundown to new Year 
+
+# 15. Build a Pdomodoro timer project
+
+# 16. Mouseover Event
+
+# 17. Random Quote Generator
+
+# 18. Build a Dictonary app
+
+# 19. Random color platte Generator
+
+# 20. Besic EMI Calculator
+
+# 21. Build Tip Calculator
+
+# 22. JavaScript Counter Project
+
+# 23. Calculator
+
+# 24. Digital Watch
+
+# 25. Epic Age Calculator
+
+# 26. Build an Interactive Sound Bord 
+
+# 27.Captivation Triangle Loading Animation
