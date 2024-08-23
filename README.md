@@ -38,7 +38,7 @@
 
 # 17. Random Quote Generator
 
-# 18. Build a Dictonary app
+# 18. Dictonary app
 
 # 19. Random color platte Generator
 
