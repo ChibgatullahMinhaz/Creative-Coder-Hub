@@ -1,5 +1,5 @@
 // creating div
-const container = document.getElementById('container');
+const container = document.createElement('div');
 const header = document.createElement('div');
 const quoteDiv = document.createElement('div');
 const authorDiv = document.createElement('div');
@@ -58,7 +58,6 @@ getQuote();
 
 // event btn
 btn.addEventListener('click',getQuote)
-
 
 // resset styleing  
 container.style.border = '1px solid red';
