@@ -24,7 +24,11 @@ container.appendChild(output)
 btn.addEventListener('click', async() => {
     const val = input.value;
     if( val === ""){
-        alert("Please enter a word");
+        let userInput = prompt('Please Enter Your Word');
+        const response  = await fetch( `https://api.dictionaryapi.dev/api/v2/entries/en/${userInput}`);
+        let  data = await response.json();
+        outputP.textContent = data[0]['meanings'][0]["definitions"][0]["definition"];
+        input.value = userInput;
     }else {    
         const response  = await fetch( `https://api.dictionaryapi.dev/api/v2/entries/en/${val}`);
         let  data = await response.json();
