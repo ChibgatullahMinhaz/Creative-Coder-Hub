@@ -23,6 +23,7 @@ container.style.boxShadow = '0 0 10px rgba(0,0,0,0.5)';
 container.style.width = '250px';
 container.style.backgroundColor = 'white';
 container.style.textAlign = 'center';
+container.style.padding = "1rem";
 
 // timing 
 setInterval(() => {

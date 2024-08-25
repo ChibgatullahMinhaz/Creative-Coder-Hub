@@ -52,7 +52,7 @@
 
 # 24. Digital clock
 
-# 25. Epic Age Calculator
+# 25. Age Calculator
 
 # 26. Build an Interactive Sound Bord 
 
