@@ -56,6 +56,4 @@
 
 # 26. Build an Interactive Sound Bord 
 
-# 27.Captivation Triangle Loading Animation
-
-# 28. Gussing Game
+# 27. Gussing Game
