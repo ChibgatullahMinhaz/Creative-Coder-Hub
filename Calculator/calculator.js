@@ -51,9 +51,6 @@ rows.forEach(buttons => {
 // Append container to body
 document.body.appendChild(container);
 
-
-
-
 const output = document.querySelector('.result');
 const buttons = document.querySelectorAll('button');
 let str = '';
@@ -79,6 +76,3 @@ buttons.forEach((button) => {
         console.log('Current string:', str);
     });
 });
-
-
-

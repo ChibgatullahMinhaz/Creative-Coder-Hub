@@ -50,7 +50,7 @@
 
 # 23. Calculator
 
-# 24. Digital Watch
+# 24. Digital clock
 
 # 25. Epic Age Calculator
 
