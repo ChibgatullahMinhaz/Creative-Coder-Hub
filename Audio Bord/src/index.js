@@ -14,25 +14,21 @@ const audio6 = document.querySelector('#audio-wrong');
 
 button1.addEventListener('click', () => {
     stopAudio()
-
     audio6.play();
 })
 
 button2.addEventListener('click', () => {
     stopAudio()
-
     audio2.play();
 })
 
 button3.addEventListener('click', () => {
     stopAudio()
-
     audio3.play();
 })
 
 button4.addEventListener('click', () => {
     stopAudio()
-
     audio4.play();
 })
 
