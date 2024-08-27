@@ -67,3 +67,7 @@
 # 31. BIM Calculator
 
 # 32. Stop Watch
+
+# 33. Image Slider
+
+# 34. Random Imoji Generator
