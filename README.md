@@ -71,3 +71,5 @@
 # 33. Image Slider
 
 # 34. Random Imoji Generator
+
+# 35. Animated Text
