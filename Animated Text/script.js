@@ -1,12 +1,12 @@
 const animatedText = document.querySelector(".animated-text");
 const texts = [
-    "Subscribe to Procode Youtube Channel",
+    "Subscribe to  Youtube Channel",
     "Learn MERN Stack Development",
     "Follow for more tutorials"
 ];
 let currentTextIndex = 0;
 let i = 0;
-let speed = 50;
+let speed = 40;
 
 function animate() {
     const currentText = texts[currentTextIndex];
