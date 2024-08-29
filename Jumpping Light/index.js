@@ -1,5 +1,5 @@
 const container = document.getElementById('container');
-const no_of_boxes = 500;
+const no_of_boxes = 600;
 const hexcode = '0123456789ABCDEF';
 
 function getRandom() {
@@ -23,8 +23,10 @@ function generateBoxs(){
         box.style.backgroundColor = "#1D1D1D";
         box.style.boxShadow = "0 0 2px 0 rgba(0,0,0,0.3)";
        }, 300);
-        container.appendChild(box);
        }, 600);
+
+       
+       container.appendChild(box);
     }
 }
 
