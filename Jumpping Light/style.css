@@ -28,9 +28,4 @@ body {
     margin: 2px;
     box-shadow: 0 0 2px 0 rbga(0,0,0,0.3);
     background-color: #1D1D1D;
-    transition: 5s ease;
-}
-
-.square:hover{
-    transition-duration: 0ms;
 }

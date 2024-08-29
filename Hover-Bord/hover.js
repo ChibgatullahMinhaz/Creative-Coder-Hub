@@ -16,14 +16,24 @@ function unsetColor(element) {
     element.style.boxShadow = "0 0 2px 0 rgba(0,0,0,0.3)";
 }
 
-for (let i = 0; i < n_of_box; i++) {
-    const square = document.createElement('div');
-    square.classList.add('square');
-    square.addEventListener('mouseover', () => {
-        setColor(square);
-    });
-    square.addEventListener('mouseout', () => {
-        unsetColor(square);
-    });
-    container.appendChild(square);
+const homerSquare = ()=>{
+    for (let i = 0; i < n_of_box; i++) {
+        const square = document.createElement('div');
+        square.classList.add('square');
+        square.addEventListener('mouseover', () => {
+            setColor(square);
+        });
+        square.addEventListener('mouseout', () => {
+            unsetColor(square);
+        });
+        container.appendChild(square);
+    }
 }
+
+
+function init (){
+
+homerSquare()
+}
+init()
+
