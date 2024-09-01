@@ -12,12 +12,10 @@ function computerChoice(){
     return choices[randomChoice];
 }
 
-
 buttons.forEach((button) => {
     button.addEventListener('click', () => {
         your_choice = button.innerText;
         computer_choice = computerChoice();
-        console.log("your choice: " + your_choice);
         const result = findWinner();
         if(result == "You Win!!!"){
             your_score.innerText = parseInt(your_score.innerText) + 1;
