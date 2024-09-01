@@ -1,6 +1,6 @@
 # This repo for simple javaScript projets
 
-##### This repository has 50+ projects.
+##### This repository has 40+ projects.
 
 ## List of projects👇
 
@@ -87,3 +87,7 @@
 # 40. Todo application
 
 # 40. Drag N Drop Iamge
+
+# 41. dad joks
+
+# 42. Brackout Game
