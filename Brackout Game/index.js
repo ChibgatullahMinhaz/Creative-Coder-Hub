@@ -1,8 +1,5 @@
 const canvas = document.getElementById("breakout");
 const ctx = canvas.getContext("2d");
-console.log(canvas)
-console.log(canvas.width)
-console.log(canvas.height)
 let score= 0;
 // ball
 let ballX = canvas.width / 2;
