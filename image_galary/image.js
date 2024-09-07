@@ -1,18 +1,20 @@
-const input = document.querySelector('#input');
-const submit = document.querySelector('#submit');
-const imgContainer = document.querySelector('.img-container');
+const input = document.getElementById('input');
+const submit = document.getElementById('submit');
+const imgContainer = document.getElementById('img-container');
 
-submit.addEventListener('click',  function() {
-    const count = input.value;
-    console.log(count)
-    if( count < 1 || count > 100) {
-        alert('Please enter a number between 1 and 10');
-    }else {
+
+submit.addEventListener("click", ()=>{
+    let count = input.value;
+    if(count < 1 || count > 500){
+        alert('Please enter a number between 1 and 500');
+        return
+    }else{
         imgContainer.innerHTML = '';
-        for( let i=0;i < count;i++) {
-            const img = document.createElement('img');
-            img.src = `https://picsum.photos/200/300/?random/${i}`;
-            imgContainer.appendChild(img);
+        for (let index = 0; index < count; index++) {
+            let img = document.createElement("img");
+            img.src =  `https://picsum.photos/200/300/?random/${index}`;
+            imgContainer.appendChild(img)
         }
+
     }
-});
+})
