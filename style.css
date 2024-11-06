@@ -1,0 +1,120 @@
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+.darkMode {
+  background-color: transparent;
+  border: none;
+}
+header {
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05);
+  padding: 5px;
+  height: 10vh;
+}
+body.dark-mode header{
+    background-color: #333;
+}
+.logo{
+    font-size: 1.5rem;
+    color: green;
+}
+.nav_menu {
+  position: fixed;
+  top: 55px;
+  right: 0;
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  background-color: #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 2px 4px rgba(0, 0, 0, 0.05);
+  color: white;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  transform: translateX(100%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.nav_menu ul {
+  list-style: none;
+  width: 100%;
+}
+
+.nav_menu li {
+  margin-bottom: 1rem;
+}
+
+.nav_link {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.nav_link:hover {
+  color: #ddd;
+}
+.nav_menu.active {
+  transform: translateX(0);
+  opacity: 1;
+}
+body.dark-mode .nav_menu {
+  background-color: #444444;
+}
+
+body.dark-mode .nav_link {
+  color: #ddd;
+}
+
+body.dark-mode .nav_link:hover {
+  color: #ffffff;
+}
+
+/* Menu icon */
+.menu-icon {
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+.menu-icon {
+  display: inline;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+/* Dark mode menu icon */
+body.dark-mode .menu-icon {
+  color: #ddd;
+  background-color: transparent;
+}
+body.dark-mode .menu-icon:hover {
+  color: #ddd;
+  background-color: transparent;
+}
+/* Close icon */
+.close-icon {
+  display: none;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline;
+  font-size: 1rem;
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+body.dark-mode .close-icon {
+  color: #ddd;
+  background-color: transparent;
+}
