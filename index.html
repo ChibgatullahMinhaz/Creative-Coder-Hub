@@ -9,34 +9,298 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="stylesheet" href="style.css">
     <title>CreativeCoderHub</title>
 </head>
 
 <body>
 
-    <header>
-        <nav class="container">
+    <header class="primary sticky-top">
+        <nav class="container nav_container">
             <h1 class="logo">CreativeCoderHub</h1>
             <button id="mode-toggle" class="darkMode">Dark Mode</button>
 
             <button id="menu-toggle" class="menu-icon">☰</button>
-            <button id="close-menu" class="close-icon">✖</button>
+            <button id="close-menu" class="close-icon" style="display: none;">✖</button>
 
             <div id="nav-menu" class="nav_menu container">
                 <ul>
-                    <li><a href="#" class="nav_link">Home</a></li>
-                    <li><a href="#" class="nav_link">About</a></li>
-                    <li><a href="#" class="nav_link">Contact</a></li>
+                    <li><a href="#about" class="nav_link">About</a></li>
+                    <li><a href="https://chibgatullahminhazportfolio.vercel.app/" target="_blank"
+                            class="nav_link">Portfolio Website</a></li>
+
+                    <li><a href="#Featurd" class="nav_link">Featured Work</a></li>
+
+                    <li><a href="#CreativeWork" class="nav_link">Creative Projects</a></li>
+
+                    <li><a href="#LMS" class="nav_link">Learning Management Systems</a></li>
+                    <li><a href="#ECOM" class="nav_link">E-Commerce Websites</a></li>
+
+                    <li><a href="#HWS" class="nav_link">Healthcare Web Solutions</a></li>
+                    <li><a href="#RealState" class="nav_link">Real Estate Platforms</a></li>
+
+
                 </ul>
             </div>
 
         </nav>
     </header>
 
-    <main>
-        <h1>welcome to CreativeCoderHub</h1>
+    <main class="container">
+        <marquee behavior="" direction="">Welcome to CreativeCoderHub. This website for Showcase all Creative Projects
+        </marquee>
+
+        <section id="Featurd" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4">Featured Work</h2>
+                <div class="row">
+                    <!-- Tool Card 1 -->
+                    <div class="col-md-4">
+                        <div class="card tool-card">
+                            <img src="https://play-lh.googleusercontent.com/JZNq7Ym84x2EvFyZYY8M2gKMx03nsuRqAzHp-otvutCaBtuB2WE1ontML8GnheAOnFs=w526-h296-rw"
+                                class="card-img-top" alt="Tool 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Image search</h5>
+                                <p class="card-text">An Image Search App that lets users search and display images from
+                                    Unsplash via an API. It dynamically fetches and shows results in a responsive grid
+                                    layout.</p>
+                                <a href="image_search_app/index.html" class="btn btn-primary">Try Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tool Card 2 -->
+                    <div class="col-md-4">
+                        <div class="card tool-card">
+                            <img src="tool2-thumbnail.jpg" class="card-img-top" alt="Tool 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Tool 2</h5>
+                                <p class="card-text">Get insights with this useful tool.</p>
+                                <a href="#" class="btn btn-primary">Try Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tool Card 3 -->
+                    <div class="col-md-4">
+                        <div class="card tool-card">
+                            <img src="tool3-thumbnail.jpg" class="card-img-top" alt="Tool 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Tool 3</h5>
+                                <p class="card-text">Simplify your tasks with this tool.</p>
+                                <a href="#" class="btn btn-primary">Try Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="CreativeWork">
+            <h2>Creative Projects:</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ipsa iusto, sunt consectetur harum ipsam
+                fuga velit consequatur at labore atque a magnam veniam minus debitis voluptate explicabo unde dolores
+                corrupti eos mollitia! Facilis libero culpa perspiciatis eligendi accusantium sed inventore velit optio,
+                ea atque molestiae provident nostrum eveniet ipsum.</p>
+
+            <div class="container mt-4">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card zoom-card">
+                            <img src="https://mgmotor.scene7.com/is/image/mgmotor/zs-img-dsc-0324?$mg-rgb-mobile-portrait-image-responsive$&op_sharpen=1&resMode=bilin"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <div class="button">
+                                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-code"></i> View Code</a>
+                                    <a href="https://authenticate-telecom.vercel.app/" class="btn btn-primary">Try
+                                        Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card zoom-card">
+                            <img src="https://mgmotor.scene7.com/is/image/mgmotor/zs-img-dsc-0324?$mg-rgb-mobile-portrait-image-responsive$&op_sharpen=1&resMode=bilin"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card zoom-card">
+                            <img src="https://mgmotor.scene7.com/is/image/mgmotor/zs-img-dsc-0324?$mg-rgb-mobile-portrait-image-responsive$&op_sharpen=1&resMode=bilin"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="https://vercel.com/chibgatullahminhazs-projects/authenticate-telecom"
+                                    class="btn btn-primary">Try Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- Closing .row -->
+            </div> <!-- Closing .container -->
+        </section>
+
+
+        <!--Learning Management Systems  -->
+
+        <section class="LMS" id="LMS">
+            <h2>Learning Management Systems:</h2>
+            <div class="container mt-4">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card zoom-card">
+                            <!-- Add a valid image source -->
+                            <img src="your-image-url.jpg" class="card-img-top" alt="Coming Soon">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <div class="button">
+                                    <!-- Correct button links -->
+                                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-code"></i> Code</a>
+                                    <a href="#" class="btn btn-primary">Try Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- E-Commerce  -->
+
+        <section id="ECOM">
+            <h2>E-Commerce Websites:</h2>
+            <div class="container mt-4">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card zoom-card">
+                            <!-- Add a valid image source -->
+                            <img src="your-image-url.jpg" class="card-img-top" alt="Coming Soon">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <div class="button">
+                                    <!-- Correct button links -->
+                                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-code"></i> Code</a>
+                                    <a href="#" class="btn btn-primary">Try Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Healthcare Web Solutions -->
+        <section id="HWS">
+            <h2>Healthcare Web Solutions:</h2>
+            <div class="container mt-4">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card zoom-card">
+                            <!-- Add a valid image source -->
+                            <img src="your-image-url.jpg" class="card-img-top" alt="Coming Soon">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <div class="button">
+                                    <!-- Correct button links -->
+                                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-code"></i> Code</a>
+                                    <a href="#" class="btn btn-primary">Try Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Real Estate Platforms -->
+        <section id="RealState">
+            <h2>Real Estate Platforms:</h2>
+            <div class="container mt-4">
+                <div class="row">
+                    <!-- Card 1 -->
+                    <div class="col-md-4 col-sm-6 mb-4">
+                        <div class="card zoom-card">
+                            <!-- Add a valid image source -->
+                            <img src="your-image-url.jpg" class="card-img-top" alt="Coming Soon">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <div class="button">
+                                    <!-- Correct button links -->
+                                    <a href="#" class="btn btn-primary"><i class="fa-solid fa-code"></i> Code</a>
+                                    <a href="#" class="btn btn-primary">Try Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- about Section -->
+        <section id="about" class="container mt-4 p-4">
+
+            <h1 class="text-center">About Me</h1>
+
+
+            <p class="text-center justify">Welcome to Creative Code Hub, a space where I showcase my journey in web
+                development. I'm Chibgatullah Minhaz, a passionate developer dedicated to creating innovative and
+                functional web applications. Over the Years, I have built a range of mini projects using HTML, CSS,
+                JavaScript, and more.
+
+                Through each project, I strive to improve my skills and deliver quality results. From interactive
+                websites to dynamic user interfaces, my goal is to help others solve problems through clean and
+                effective code. This website serves as a platform to highlight my work, tools, and resources I've
+                created for other developers and enthusiasts.
+
+                Feel free to explore my portfolio, check out my featured projects, and learn more about the tools I’ve
+                developed. Thank you for visiting!</p>
+        </section>
+
     </main>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 Creative Code Hub. All Rights Reserved.</p>
+            <ul class="list-unstyled">
+                <li class="footer_list"><a href="https://chibgatullahminhazportfolio.vercel.app/"
+                        class="text-white">Porfolio</a></li>
+            </ul>
+        </div>
+    </footer>
+
 
     <script src="scrip.js"></script>
 </body>

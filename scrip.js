@@ -36,8 +36,8 @@ const closeMenu = document.getElementById('close-menu');
 // Show menu with animation on clicking the menu icon
 menuToggle.addEventListener('click', () => {
     navMenu.classList.add('active');
-    menuToggle.style.display = 'none'; // Hide menu icon
-    if (closeMenu) closeMenu.style.display = 'inline'; // Show close icon if it exists
+    menuToggle.style.display = 'none';
+    if (closeMenu) closeMenu.style.display = 'inline'; 
 });
 
 // Hide menu with animation on clicking the close icon
@@ -61,6 +61,6 @@ document.addEventListener('click', (event) => {
 // Function to close the navigation menu
 function closeNavMenu() {
     navMenu.classList.remove('active');
-    if (closeMenu) closeMenu.style.display = 'none'; // Hide close icon if it exists
-    menuToggle.style.display = 'inline'; // Show menu icon
+    if (closeMenu) closeMenu.style.display = 'none';
+    menuToggle.style.display = 'inline';
 }
