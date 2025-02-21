@@ -1,2 +1,2 @@
 # welcome to my creative coder hub
- #### this website for my all personal projets showcase. 
+ #### this website for my all projets work showcase. 

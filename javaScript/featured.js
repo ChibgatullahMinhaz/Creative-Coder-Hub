@@ -31,7 +31,7 @@ const featuredWorks = [
     }
 ];
 
-function generateAssignmentCard(cards) {
+function generateCard(cards) {
     let container = document.getElementById("card_container");
     container.innerHTML = "";
 
@@ -60,4 +60,4 @@ function generateAssignmentCard(cards) {
     }
 }
 
-generateAssignmentCard(featuredWorks);
+generateCard(featuredWorks);

@@ -13,9 +13,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- tailwind css  -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 
     <link rel="stylesheet" href="styles/style.css">
     <script src="javaScript/nav.js" defer></script>
+    <script src="javaScript/featured.js" defer></script>
+    <script src="javaScript/Assingment.js" defer></script>
+    <script src="javaScript/Challenges.js" defer></script>
+    <script src="javaScript/personal.js" defer></script>
     <title>CreativeCoderHub</title>
 </head>
 
@@ -56,55 +62,12 @@
         <!-- Featured Section -->
 
         <section id="Featurd" class="py-5">
-            <div class="container">
-                <h2 class="text-center mb-4">Featured Work</h2>
-                <div class="row">
-                    <!-- Tool Card 1 -->
-                    <div class="col-md-4">
-                        <div class="card tool-card">
-                            <img src="https://play-lh.googleusercontent.com/JZNq7Ym84x2EvFyZYY8M2gKMx03nsuRqAzHp-otvutCaBtuB2WE1ontML8GnheAOnFs=w526-h296-rw"
-                                class="card-img-top" alt="Tool 1">
-                            <div class="card-body">
-                                <h5 class="card-title">Image search</h5>
-                                <p class="card-text">An Image Search App that lets users search and display images from
-                                    Unsplash via an API. It dynamically fetches and shows results in a responsive grid
-                                    layout.</p>
-                                <a href="image_search_app/index.html" class="btn btn-primary">Try Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Tool Card 2 -->
-                    <div class="col-md-4">
-                        <div class="card tool-card">
-                            <img src="Images/quiz app.png" class="card-img-top" alt="Quiz Application">
-                            <div class="card-body">
-                                <h5 class="card-title">Front End Quiz</h5>
-                                <p class="card-text">This quiz application is built using HTML, CSS, and JavaScript,
-                                    featuring dark mode and localStorage for saving user progress. It's designed to be
-                                    responsive, offering a seamless experience across all devices, perfect for front-end
-                                    interview practice.</p>
-                                <a href="Quiz Application/index.html" class="btn btn-primary">Try Now</a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Tool Card 3 -->
-                    <div class="col-md-4">
-                        <div class="card tool-card">
-                            <img src="Images/Focus on Today.png" class="card-img-top" alt="Focus On today ">
-                            <div class="card-body">
-                                <h5 class="card-title">Focus On Today</h5>
-                                <p class="card-text">"Focus on Today" is a goal-setting app where users can set and
-                                    track three goals daily, marking their progress as they complete each one. It uses
-                                    localStorage to save user data, allowing them to track their progress even after
-                                    reloading or returning to the app</p>
-                                <a href="https://chibgatullahminhaz.github.io/Focus-on-Today/"
-                                    class="btn btn-primary">Try Now</a>
-                            </div>
-                        </div>
-                    </div>
+            <h2 class="text-center mb-4">Featured Work</h2>
+            <div id="card_container" class="container grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
 
+                <!-- card  -->
+                 
 
-                </div>
             </div>
         </section>
 
