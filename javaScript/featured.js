@@ -1,46 +1,54 @@
 const featuredWorks = [
     {
         id: 1,
-        name: "Age Calculator",
-        image: 'https://via.placeholder.com/200',
-        description: "A simple Age calculator built using JavaScript. it's for calculate Age",
-        goLive: 'https://personal-mini-projects.vercel.app/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects/tree/main/Age%20Calculator',
+        name: "Bangladesh 0.2",
+        image: 'https://i.ibb.co.com/Y4ryYDyf/chibgatullahminhaz-github-io-Bangladesh-2-0.png',
+        description: "Bangladesh 0.2 is a simple Website built HTML,CSS",
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Bangladesh-2.0',
+        goLive: 'https://chibgatullahminhaz.github.io/Bangladesh-2.0/',
     },
     {
         id: 2,
-        name: "Weather App",
-        image: 'https://via.placeholder.com/200',
-        description: "A weather forecasting app using API.",
-        goLive: 'https://personal-mini-projects.vercel.app/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects'
+        name: "Kindergarten",
+        image: 'https://i.ibb.co.com/4wMSF2GD/Screenshot-2025-02-21-205542.png',
+        description: "A kindergarten Website built using HTMl and CSS",
+        goLive: 'https://chibgatullahminhaz.github.io/kindergarten/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/kindergarten'
 
     },
     {
         id: 3,
-        name: "To-Do List",
-        image: 'https://via.placeholder.com/200',
-        description: "A task manager application with local storage.",
-        goLive: 'https://personal-mini-projects.vercel.app/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects'
+        name: "Browse 4 Pets",
+        image: 'https://i.ibb.co.com/MDjTbtz3/a3.png',
+        description: "A pets living leb website built HTML, CSS Tailwinds CSS",
+        goLive: 'https://chibgatullahminhaz.github.io/Browse-Pets/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Browse-Pets'
 
     },
     {
         id: 4,
-        name: "E-commerce Site",
-        image: 'https://via.placeholder.com/200',
-        description: "A fully responsive online shopping website.",
-        goLive: 'https://personal-mini-projects.vercel.app/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects'
+        name: "Portfolio Website",
+        image: 'https://i.ibb.co.com/F43ZxyHm/Screenshot-2025-02-21-210717.png',
+        description: "A personal portfolio to showcase projects.",
+        goLive: 'https://chibgatullahminhazportfolio.vercel.app/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/portfolio'
 
     },
     {
         id: 5,
-        name: "Portfolio Website",
-        image: 'https://via.placeholder.com/200',
-        description: "A personal portfolio to showcase projects.",
-        goLive: 'https://personal-mini-projects.vercel.app/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects'
+        name: "Foodie Humburger",
+        image: 'https://i.ibb.co.com/j95yS0NN/Screenshot-2025-02-21-202522.png',
+        description: "A simple Burger Website built using JavaScript.",
+        goLive: 'https://chibgatullahminhaz.github.io/Foodie-Hamburger/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Foodie-Hamburger',
+    },
+    {
+        id: 6,
+        name: "Focus on Today",
+        image: 'https://i.ibb.co.com/hJczjTqy/Screenshot-2025-02-21-203355.png',
+        description: "A simple Focus on Today website built javaScript.it's sets three goals. ",
+        goLive: 'https://chibgatullahminhaz.github.io/Focus-on-Today/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Focus-on-Today'
 
     }
 ];

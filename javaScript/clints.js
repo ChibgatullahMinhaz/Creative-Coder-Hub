@@ -1,4 +1,4 @@
-const featuredWorks = [
+const clintContainer = [
     {
         id: 1,
         name: "Age Calculator",
@@ -46,7 +46,7 @@ const featuredWorks = [
 ];
 
 function generateCard(cards) {
-    let container = document.getElementById("card_container");
+    let container = document.getElementById("clintContainer");
     container.innerHTML = "";
 
     for (const card of cards) {
@@ -93,4 +93,4 @@ function generateCard(cards) {
     }
 }
 
-generateCard(featuredWorks);
+generateCard(clintContainer);
