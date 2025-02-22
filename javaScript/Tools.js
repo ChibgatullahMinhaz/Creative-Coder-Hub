@@ -2,44 +2,44 @@ const Tools = [
     {
         id: 1,
         name: "Age Calculator",
-        image: 'https://i.ibb.co.com/zW6FzwD5/Screenshot-2025-02-21-211238.png',
+        image: 'https://play-lh.googleusercontent.com/325IpLP2w1cR4NegSUqBV60HwvzqnvuMEA0LTNA_dzg7KdRpTgpVGxQ0bC9TrxXALA',
         description: "A simple Age calculator built using JavaScript. it's for calculate Age",
         goLive: 'https://personal-mini-projects.vercel.app/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects/tree/main/Age%20Calculator',
     },
     {
         id: 2,
-        name: "Weather App",
-        image: 'https://via.placeholder.com/200',
-        description: "A weather forecasting app using API.",
-        goLive: 'https://personal-mini-projects.vercel.app/',
+        name: "Text Animation",
+        image: 'https://www.animaker.com/static_2.0/img/textanimationmaker/text_animation_ogimage.png',
+        description: "A simple Text Animation Site built using HTML and JavaScript",
+        goLive: 'https://personal-mini-projects-av5l.vercel.app/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects'
 
     },
     {
         id: 3,
-        name: "To-Do List",
-        image: 'https://via.placeholder.com/200',
-        description: "A task manager application with local storage.",
-        goLive: 'https://personal-mini-projects.vercel.app/',
+        name: "Audio Bord",
+        image: './images/audiobord.png',
+        description: "It's a simple audio bord site built using html,CSS and JavaScript",
+        goLive: 'https://personal-mini-projects-pmvc.vercel.app/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects'
 
     },
     {
         id: 4,
-        name: "E-commerce Site",
-        image: 'https://via.placeholder.com/200',
-        description: "A fully responsive online shopping website.",
-        goLive: 'https://personal-mini-projects.vercel.app/',
+        name: "BMI Calculator",
+        image: './images/bmi.png',
+        description: "It's a simple BMI Calculator , built using HTML,CSS and JavaScript.",
+        goLive: 'https://personal-mini-projects-emvg.vercel.app/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects'
 
     },
     {
         id: 5,
-        name: "Portfolio Website",
-        image: 'https://via.placeholder.com/200',
-        description: "A personal portfolio to showcase projects.",
-        goLive: 'https://personal-mini-projects.vercel.app/',
+        name: "Calculator",
+        image: './images/calculator.png',
+        description: "It's a Calculato , fully Funtional built using JavaScript",
+        goLive: 'https://personal-mini-projects-2dpk.vercel.app/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects'
 
     }
@@ -74,7 +74,7 @@ function generateCard(cards) {
         a.innerText = "Code"
         a.href =card.GoCode;
         a.target = ' blank'
-        ancor2.innerText = "Live"
+        ancor2.innerText = "Live Site"
         ancor2.href =card.goLive;
         ancor2.target = 'blank';
         let buttonContainer = document.createElement('div');
