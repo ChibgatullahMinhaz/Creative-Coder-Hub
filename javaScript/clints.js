@@ -5,7 +5,7 @@ const clintContainer = [
         image: 'https://i.ibb.co.com/FbKDBXnX/chibgatullahminhaz-github-io-APlus-Studio.png',
         description: "Gigital Agency website built using html, css , tailwind css ",
         goLive: 'https://chibgatullahminhaz.github.io/APlus-Studio/',
-        GoCode: '',
+        
     }
 ];
 
@@ -36,9 +36,8 @@ function generateCard(cards) {
         let a = document.createElement('a')
         let ancor2 = document.createElement('a')
         a.innerText = "Code"
-        a.href =card.GoCode;
-        a.target = ' blank'
-        ancor2.innerText = "Live"
+        a.style.color = "white"
+        ancor2.innerText = "Visite Site"
         ancor2.href =card.goLive;
         ancor2.target = 'blank';
         let buttonContainer = document.createElement('div');

@@ -56,7 +56,7 @@ function generateCard(cards) {
         a.innerText = "Code"
         a.href =card.GoCode;
         a.target = ' blank'
-        ancor2.innerText = "Live"
+        ancor2.innerText = "Visite Site"
         ancor2.href =card.goLive;
         ancor2.target = 'blank';
         let buttonContainer = document.createElement('div');
