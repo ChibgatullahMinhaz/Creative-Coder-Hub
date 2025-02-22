@@ -48,8 +48,8 @@ const Tools = [
 function generateCard(cards) {
     let container = document.getElementById("toolsContainer");
     container.innerHTML = "";
-
-    for (const card of cards) {
+    for (let i = cards.length - 1; i >= 0; i--) {
+        let card = cards[i];
         const cardBody = document.createElement('div');
         cardBody.className = 'cardBody';
 

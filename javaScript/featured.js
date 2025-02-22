@@ -33,23 +33,6 @@ const featuredWorks = [
         goLive: 'https://chibgatullahminhazportfolio.vercel.app/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/portfolio'
 
-    },
-    {
-        id: 5,
-        name: "Foodie Humburger",
-        image: 'https://i.ibb.co.com/j95yS0NN/Screenshot-2025-02-21-202522.png',
-        description: "A simple Burger Website built using JavaScript.",
-        goLive: 'https://chibgatullahminhaz.github.io/Foodie-Hamburger/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/Foodie-Hamburger',
-    },
-    {
-        id: 6,
-        name: "Focus on Today",
-        image: 'https://i.ibb.co.com/hJczjTqy/Screenshot-2025-02-21-203355.png',
-        description: "A simple Focus on Today website built javaScript.it's sets three goals. ",
-        goLive: 'https://chibgatullahminhaz.github.io/Focus-on-Today/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/Focus-on-Today'
-
     }
 ];
 
