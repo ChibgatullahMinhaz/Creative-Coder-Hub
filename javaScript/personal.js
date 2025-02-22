@@ -127,7 +127,7 @@ const personalProjects = [
     ,
     {
         name: "Foodie-Hamburger",
-        image:  './images/Foodie.png',
+        image:  './images/foodie.png',
         description: "A resturant website built using HTML,CSS and JavaScript",
         goLive: 'https://chibgatullahminhaz.github.io/Foodie-Hamburger/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/Foodie-Hamburger'
