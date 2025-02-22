@@ -57,7 +57,7 @@ const personalProjects = [
     {
         name: "Happy New Year",
         image: 'https://i.ibb.co.com/N2KK0bHx/chibgatullahminhaz-github-io-New-Year-Offer.png',
-        description: "It's a simple happy new year offer webstie built using htm and Tailwinds CSS ",
+        description: "It's a simple happy new year offer webstie built htm and Tailwinds CSS ",
         goLive: 'https://chibgatullahminhaz.github.io/New-Year-Offer/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/New-Year-Offer'
     }
@@ -65,17 +65,33 @@ const personalProjects = [
     {
         name: " Tea House",
         image: './images/Tea-House_.png',
-        description: "A Tea House webstie built using htm and Tailwinds CSS. This Design for ShowCase My Skills  ",
+        description: "A Tea House webstie built using htm and Tailwinds CSS.",
         goLive: 'https://chibgatullahminhaz.github.io/Tea-House/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/Tea-House'
     }
     ,
     {
-        name: "",
-        image: '',
-        description: "",
-        goLive: '',
-        GoCode: ''
+        name: "Pengue Fashion",
+        image:  './images/pengune_fashion.png',
+        description: "A Fashion Website 'Pengue Fashion' built HTLM , CSS and Tailiwnd CSS.",
+        goLive: 'https://chibgatullahminhaz.github.io/PenguinFashion/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/PenguinFashion'
+    }
+    ,
+    {
+        name: "Donate Today",
+        image:  './images/donateToday.png',
+        description: "A Donate Website 'Donate Website' built HTLM , CSS and Tailiwnd CSS.",
+        goLive: 'https://chibgatullahminhaz.github.io/Donate-Today/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Donate-Today'
+    }
+    ,
+    {
+        name: "Done Today",
+        image:  './images/doneToday.png',
+        description: "A Donate Website 'Donate Website' built HTLM , CSS and Tailiwnd CSS.",
+        goLive: 'https://chibgatullahminhaz.github.io/Donate-Today/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Donate-Today'
     }
 ];
 
