@@ -1,17 +1,17 @@
 const personalProjects = [
     {
-        name: "Foodie Humburger",
-        image: 'https://i.ibb.co.com/j95yS0NN/Screenshot-2025-02-21-202522.png',
-        description: "A simple Burger Website built using JavaScript.",
-        goLive: 'https://chibgatullahminhaz.github.io/Foodie-Hamburger/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/Foodie-Hamburger',
+        name: "Shortly",
+        image: './images/shortly.png',
+        description: "A simple URL short Website Desing built using HTML  and CSS.",
+        goLive: 'https://chibgatullahminhaz.github.io/URL-Short/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/URL-Short',
     },
     {
-        name: "image SearchApp",
-        image:  './images/imgeSearch.png',
-        description: "A iamge Search Website for Search Random Image using JavaScript",
-        goLive: 'https://chibgatullahminhaz.github.io/imgeSearchApp/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/imgeSearchApp',
+        name: "Foodie Humburger",
+        image: 'https://i.ibb.co.com/j95yS0NN/Screenshot-2025-02-21-202522.png',
+        description: "Foodie Humburger It's a Burger Website built using JavaScript.",
+        goLive: 'https://chibgatullahminhaz.github.io/Foodie-Hamburger/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Foodie-Hamburger',
     },
     {
         name: "Focus on Today",
@@ -154,7 +154,14 @@ const personalProjects = [
         description: "A Quize Application website built using HTML, CSS and JavaScript",
         goLive: 'https://chibgatullahminhaz.github.io/Quize-Application/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/Quize-Application'
-    }
+    },
+    {
+        name: "image SearchApp",
+        image:  './images/imgeSearch.png',
+        description: "A iamge Search Website for Search Random Image using JavaScript",
+        goLive: 'https://chibgatullahminhaz.github.io/imgeSearchApp/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/imgeSearchApp',
+    },
 ];
 
 function generateCard(cards) {
@@ -166,6 +173,7 @@ function generateCard(cards) {
          
         const cardBody = document.createElement('div');
         cardBody.className = 'cardBody';
+
 
         // Image
         let img = document.createElement('img');

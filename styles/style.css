@@ -3,7 +3,24 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+.fontFamily {
+  font-family: "Roboto", serif;
+}
+h3{
+  font-family: "Poppins", sans-serif;
+font-weight: bolder;
+color: #1E3A8A ;
+}
+body.dark-mode h3{
+  color: #93C5FD;
+}
+p{
+  font-weight: 500;
+  color: #4B5563;
+}
+body.dark-mode p{
+  color: #E5E7EB;
+}
 /* Dark mode styles */
 body.dark-mode {
   background-color: hsl(0, 0%, 7%);
@@ -159,12 +176,25 @@ body.dark-mode .card {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   padding: 1rem;
   border-radius: 0.7rem;
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  background-color:   #F3F4F6  ;
+}
+body .dark-mode .cardBody {
+  background-color: #1E293B;
 }
 body.dark-mode .cardBody {
   background-color: #2c2f33;
   box-shadow: 0 0 10px rgba(44, 47, 51, 0.5);
+  animation: loadingGlow 2s infinite alternate ease-in-out;
 }
-
+@keyframes loadingGlow {
+  0% { box-shadow: 0px 0px 10px rgba(59, 130, 246, 0.6); }  /* Blue */
+  25% { box-shadow: 0px 0px 15px rgba(250, 204, 21, 0.7); }  /* Gold */
+  50% { box-shadow: 0px 0px 20px rgba(168, 85, 247, 0.8); }  /* Purple */
+  75% { box-shadow: 0px 0px 15px rgba(250, 204, 21, 0.7); }  /* Gold */
+  100% { box-shadow: 0px 0px 10px rgba(59, 130, 246, 0.6); }  /* Blue */
+}
 .btncontainer {
   display: flex;
   justify-content: space-between;
@@ -172,27 +202,41 @@ body.dark-mode .cardBody {
   padding: 0 0.4rem;
 }
 .btncontainer button {
-  background-color:   #0056b3;
+  background-color: #EAB308;
   padding: 0.5rem;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 .btncontainer button:hover {
-  background-color: #00BFFF;
+  background-color: #C29106;
   padding: 0.5rem;
   border-radius: 10px;
   cursor: pointer;
+  color: #374151;
+}
+body.dark-mode .btncontainer button {
+  background-color: #FACC15;
+  padding: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #374151;
+}
+body.dark-mode .btncontainer button:hover {
+  background-color: #EAB308;
+  padding: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #374151;
 }
 a {
   text-decoration: none;
-  color: #ddd;
+  color: #374151;
   font-weight: bold;
   cursor: pointer;
 }
 a:hover {
   text-decoration: none;
-  color: #ddd;
   font-weight: bold;
   cursor: pointer;
 }
@@ -209,4 +253,8 @@ img{
   object-fit: cover;
   background-repeat: no-repeat;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+img:hover{
+  scale: 1.1;
 }
