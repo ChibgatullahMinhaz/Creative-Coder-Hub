@@ -7,6 +7,13 @@ const personalProjects = [
         GoCode: 'https://github.com/ChibgatullahMinhaz/Foodie-Hamburger',
     },
     {
+        name: "image SearchApp",
+        image:  './images/imgeSearch.png',
+        description: "A iamge Search Website for Search Random Image using JavaScript",
+        goLive: 'https://chibgatullahminhaz.github.io/imgeSearchApp/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/imgeSearchApp',
+    },
+    {
         name: "Focus on Today",
         image: 'https://i.ibb.co.com/hJczjTqy/Screenshot-2025-02-21-203355.png',
         description: "A simple Focus on Today website built javaScript.it's sets three goals. ",
@@ -126,11 +133,27 @@ const personalProjects = [
     }
     ,
     {
-        name: "Foodie-Hamburger",
+        name: "Foodie Hamburger",
         image:  './images/foodie.png',
         description: "A resturant website built using HTML,CSS and JavaScript",
         goLive: 'https://chibgatullahminhaz.github.io/Foodie-Hamburger/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/Foodie-Hamburger'
+    }
+    ,
+    {
+        name: "G3 Architects",
+        image:  './images/g3.png',
+        description: "A business website built using HTML and Tailwind Css",
+        goLive: 'https://chibgatullahminhaz.github.io/G3_Architects/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/G3_Architects'
+    }
+    ,
+    {
+        name: "Quize Application",
+        image:  './images/quiz.png',
+        description: "A Quize Application website built using HTML, CSS and JavaScript",
+        goLive: 'https://chibgatullahminhaz.github.io/Quize-Application/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Quize-Application'
     }
 ];
 
