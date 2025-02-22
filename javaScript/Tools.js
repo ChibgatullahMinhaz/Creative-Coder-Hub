@@ -2,7 +2,7 @@ const Tools = [
     {
         id: 1,
         name: "Age Calculator",
-        image: 'https://via.placeholder.com/200',
+        image: 'https://i.ibb.co.com/zW6FzwD5/Screenshot-2025-02-21-211238.png',
         description: "A simple Age calculator built using JavaScript. it's for calculate Age",
         goLive: 'https://personal-mini-projects.vercel.app/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects/tree/main/Age%20Calculator',
@@ -94,3 +94,8 @@ function generateCard(cards) {
 }
 
 generateCard(Tools);
+
+
+
+const h3 = document.getElementById('jkj');
+h3.style.fontSize

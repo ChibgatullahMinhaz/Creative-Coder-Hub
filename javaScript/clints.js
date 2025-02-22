@@ -1,47 +1,11 @@
 const clintContainer = [
     {
         id: 1,
-        name: "Age Calculator",
-        image: 'https://via.placeholder.com/200',
-        description: "A simple Age calculator built using JavaScript. it's for calculate Age",
-        goLive: 'https://personal-mini-projects.vercel.app/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects/tree/main/Age%20Calculator',
-    },
-    {
-        id: 2,
-        name: "Weather App",
-        image: 'https://via.placeholder.com/200',
-        description: "A weather forecasting app using API.",
-        goLive: 'https://personal-mini-projects.vercel.app/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects'
-
-    },
-    {
-        id: 3,
-        name: "To-Do List",
-        image: 'https://via.placeholder.com/200',
-        description: "A task manager application with local storage.",
-        goLive: 'https://personal-mini-projects.vercel.app/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects'
-
-    },
-    {
-        id: 4,
-        name: "E-commerce Site",
-        image: 'https://via.placeholder.com/200',
-        description: "A fully responsive online shopping website.",
-        goLive: 'https://personal-mini-projects.vercel.app/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects'
-
-    },
-    {
-        id: 5,
-        name: "Portfolio Website",
-        image: 'https://via.placeholder.com/200',
-        description: "A personal portfolio to showcase projects.",
-        goLive: 'https://personal-mini-projects.vercel.app/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/personal-mini-projects'
-
+        name: "A+ Studio",
+        image: 'https://i.ibb.co.com/FbKDBXnX/chibgatullahminhaz-github-io-APlus-Studio.png',
+        description: "Gigital Agency website built using html, css , tailwind css ",
+        goLive: 'https://chibgatullahminhaz.github.io/APlus-Studio/',
+        GoCode: '',
     }
 ];
 
