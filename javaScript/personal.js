@@ -64,7 +64,7 @@ const personalProjects = [
     ,
     {
         name: " Tea House",
-        image: '../images/Tea-House_.png',
+        image: './images/Tea-House_.png',
         description: "A Tea House webstie built using htm and Tailwinds CSS. This Design for ShowCase My Skills  ",
         goLive: 'https://chibgatullahminhaz.github.io/Tea-House/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/Tea-House'
