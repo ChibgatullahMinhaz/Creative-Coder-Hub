@@ -7,6 +7,13 @@ const personalProjects = [
         GoCode: 'https://github.com/ChibgatullahMinhaz/URL-Short',
     },
     {
+        name: "NewsPaper",
+        image: './images/nespaper.png',
+        description: "A simple newsPaper Home page Desing built using HTML  and CSS.",
+        goLive: 'https://chibgatullahminhaz.github.io/News-Home-page/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/News-Home-page',
+    },
+    {
         name: "Foodie Humburger",
         image: 'https://i.ibb.co.com/j95yS0NN/Screenshot-2025-02-21-202522.png',
         description: "Foodie Humburger It's a Burger Website built using JavaScript.",
@@ -32,7 +39,7 @@ const personalProjects = [
     {
         name: "Legal Solution",
         image: 'https://i.ibb.co.com/tw3t0VMp/chibgatullahminhaz-github-io-Legal-Solution.png',
-        description: "It's a simple law 'Legal Solution' webstie built using htm,css and Tailwind Css ",
+        description: "It's a simple law webstie built using htm,css and Tailwind Css ",
         goLive: 'https://chibgatullahminhaz.github.io/Legal-Solution/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/Legal-Solution'
     }
@@ -43,6 +50,14 @@ const personalProjects = [
         description: "It's a simple webstie about Covid19,  built using htm,css and Tailwind Css ",
         goLive: 'https://chibgatullahminhaz.github.io/GoCorona/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/GoCorona'
+    }
+    ,
+    {
+        name: "AuthenticateTelecom",
+        image: './images/telecom.png',
+        description: "A E-Commerce Website built using HTML, CSS and JavaScript ",
+        goLive: 'https://chibgatullahminhaz.github.io/authenticate-telecom/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/authenticate-telecom'
     }
     ,
     {

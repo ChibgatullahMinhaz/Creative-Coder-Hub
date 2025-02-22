@@ -6,20 +6,31 @@ body {
 .fontFamily {
   font-family: "Roboto", serif;
 }
-h3{
+h3 {
   font-family: "Poppins", sans-serif;
-font-weight: bolder;
-color: #1E3A8A ;
+  font-weight: bolder;
+  color: #1e3a8a;
 }
-body.dark-mode h3{
-  color: #93C5FD;
+h2 {
+  color: #1e3a8a;
+  font-weight: bolder;
+  font-family: "Roboto", serif;
 }
-p{
+body.dark-mode h2{
+  color: #93c5fd;
+  font-family: "Roboto", serif;
+}
+body.dark-mode h3 {
+  color: #93c5fd;
+  font-family: "Poppins", sans-serif;
+}
+p {
   font-weight: 500;
-  color: #4B5563;
+  color: #4b5563;
+  font-family: "Poppins", sans-serif;
 }
-body.dark-mode p{
-  color: #E5E7EB;
+body.dark-mode p {
+  color: #e5e7eb;
 }
 /* Dark mode styles */
 body.dark-mode {
@@ -177,11 +188,11 @@ body.dark-mode .card {
   padding: 1rem;
   border-radius: 0.7rem;
   cursor: pointer;
-  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-  background-color:   #F3F4F6  ;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f3f4f6;
 }
 body .dark-mode .cardBody {
-  background-color: #1E293B;
+  background-color: #1e293b;
 }
 body.dark-mode .cardBody {
   background-color: #2c2f33;
@@ -189,11 +200,21 @@ body.dark-mode .cardBody {
   animation: loadingGlow 2s infinite alternate ease-in-out;
 }
 @keyframes loadingGlow {
-  0% { box-shadow: 0px 0px 10px rgba(59, 130, 246, 0.6); }  /* Blue */
-  25% { box-shadow: 0px 0px 15px rgba(250, 204, 21, 0.7); }  /* Gold */
-  50% { box-shadow: 0px 0px 20px rgba(168, 85, 247, 0.8); }  /* Purple */
-  75% { box-shadow: 0px 0px 15px rgba(250, 204, 21, 0.7); }  /* Gold */
-  100% { box-shadow: 0px 0px 10px rgba(59, 130, 246, 0.6); }  /* Blue */
+  0% {
+    box-shadow: 0px 0px 10px rgba(59, 130, 246, 0.6);
+  } /* Blue */
+  25% {
+    box-shadow: 0px 0px 15px rgba(250, 204, 21, 0.7);
+  } /* Gold */
+  50% {
+    box-shadow: 0px 0px 20px rgba(168, 85, 247, 0.8);
+  } /* Purple */
+  75% {
+    box-shadow: 0px 0px 15px rgba(250, 204, 21, 0.7);
+  } /* Gold */
+  100% {
+    box-shadow: 0px 0px 10px rgba(59, 130, 246, 0.6);
+  } /* Blue */
 }
 .btncontainer {
   display: flex;
@@ -202,28 +223,28 @@ body.dark-mode .cardBody {
   padding: 0 0.4rem;
 }
 .btncontainer button {
-  background-color: #EAB308;
+  background-color: #eab308;
   padding: 0.5rem;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 .btncontainer button:hover {
-  background-color: #C29106;
+  background-color: #c29106;
   padding: 0.5rem;
   border-radius: 10px;
   cursor: pointer;
   color: #374151;
 }
 body.dark-mode .btncontainer button {
-  background-color: #FACC15;
+  background-color: #facc15;
   padding: 0.5rem;
   border-radius: 10px;
   cursor: pointer;
   color: #374151;
 }
 body.dark-mode .btncontainer button:hover {
-  background-color: #EAB308;
+  background-color: #eab308;
   padding: 0.5rem;
   border-radius: 10px;
   cursor: pointer;
@@ -241,13 +262,13 @@ a:hover {
   cursor: pointer;
 }
 
-body.dark-mode #footer{
-background-color: #2c2f33;
+body.dark-mode #footer {
+  background-color: #2c2f33;
 }
-img{
+img {
   border-radius: 1rem;
   margin-bottom: 0.4rem;
-  min-width:100% ;
+  min-width: 100%;
   max-height: 200px;
   height: 200px;
   object-fit: cover;
@@ -255,6 +276,6 @@ img{
   cursor: pointer;
   transition: all 0.2s ease-in-out;
 }
-img:hover{
+img:hover {
   scale: 1.1;
 }
