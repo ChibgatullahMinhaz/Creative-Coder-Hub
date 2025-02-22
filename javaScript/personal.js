@@ -81,7 +81,7 @@ const personalProjects = [
     {
         name: "Donate Today",
         image:  './images/donateToday.png',
-        description: "A Donate Website 'Donate Website' built HTLM , CSS and Tailiwnd CSS.",
+        description: "A Donate Website 'Donate Website' built HTLM , CSS",
         goLive: 'https://chibgatullahminhaz.github.io/Donate-Today/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/Donate-Today'
     }
@@ -89,9 +89,48 @@ const personalProjects = [
     {
         name: "Done Today",
         image:  './images/doneToday.png',
-        description: "A Donate Website 'Donate Website' built HTLM , CSS and Tailiwnd CSS.",
+        description: "A Donate Website 'Donate Website' built HTLM , CSS ",
         goLive: 'https://chibgatullahminhaz.github.io/Donate-Today/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/Donate-Today'
+    }
+    ,
+    {
+        name: "Alpine",
+        image:  './images/Alpine.png',
+        description: "A E-commrce websit for Sunglass built HTLM , CSS ",
+        goLive: 'https://chibgatullahminhaz.github.io/Alpine-Sunglasses/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Alpine-Sunglasses'
+    }
+    ,
+    {
+        name: "Influencer Gear",
+        image:  './images/incluencerGear.png',
+        description: "A E-commrce websit of Influencer Gear built HTLM , CSS ",
+        goLive: 'https://influencer-gear-sigma.vercel.app/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Influencer-Gear'
+    },
+    {
+        name: "The Food Cart",
+        image:  './images/foodCart.png',
+        description: "A fully Responsive Resturant Website built HTLM , CSS ",
+        goLive: 'https://chibgatullahminhaz.github.io/The-Food-Card/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/The-Food-Card'
+    }
+    ,
+    {
+        name: "Mary",
+        image:  './images/portfolioWebsite.png',
+        description: "A web Developer portfolio Website built HTLM , CSS ",
+        goLive: 'https://chibgatullahminhaz.github.io/Web-developer-portfolio/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Web-developer-portfolio'
+    }
+    ,
+    {
+        name: "Foodie-Hamburger",
+        image:  './images/Foodie.png',
+        description: "A resturant website built using HTML,CSS and JavaScript",
+        goLive: 'https://chibgatullahminhaz.github.io/Foodie-Hamburger/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Foodie-Hamburger'
     }
 ];
 
