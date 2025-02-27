@@ -177,6 +177,13 @@ const personalProjects = [
         goLive: 'https://chibgatullahminhaz.github.io/imgeSearchApp/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/imgeSearchApp',
     },
+    {
+        name: "Payoo Online Bank",
+        image:  './images/payoo.png',
+        description: "A Functional online Banking System built using JavaScript DOM",
+        goLive: 'https://chibgatullahminhaz.github.io/Payoo-Online-Banking/',
+        GoCode: '',
+    },
 ];
 
 function generateCard(cards) {
