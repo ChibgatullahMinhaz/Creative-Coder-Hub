@@ -24,6 +24,14 @@ const Assingmentwork = [
         goLive: 'https://chibgatullahminhaz.github.io/Browse-Pets/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/Browse-Pets'
 
+    } ,
+    {
+        id: 5,
+        name: "Dev Board",
+        image:  './images/devBoard.jpeg',
+        description: "A Assingmet porject built using html , tailwind and js DOM",
+        goLive: 'https://chibgatullahminhaz.github.io/Dev-Board/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Dev-Board'
     }
 ];
 

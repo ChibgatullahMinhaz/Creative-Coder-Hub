@@ -182,7 +182,7 @@ const personalProjects = [
         image:  './images/payoo.png',
         description: "A Functional online Banking System built using JavaScript DOM",
         goLive: 'https://chibgatullahminhaz.github.io/Payoo-Online-Banking/',
-        GoCode: '',
+        GoCode: 'https://github.com/ChibgatullahMinhaz',
     },
 ];
 

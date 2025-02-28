@@ -32,7 +32,15 @@ const featuredWorks = [
         description: "A personal portfolio to showcase projects.",
         goLive: 'https://chibgatullahminhazportfolio.vercel.app/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/portfolio'
-
+    }
+    ,
+    {
+        id: 5,
+        name: "Dev Board",
+        image:  './images/devBoard.jpeg',
+        description: "A Assingmet porject built using html , tailwind and js DOM",
+        goLive: 'https://chibgatullahminhaz.github.io/Dev-Board/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Dev-Board'
     }
 ];
 
