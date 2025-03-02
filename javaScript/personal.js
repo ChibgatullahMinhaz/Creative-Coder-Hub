@@ -191,6 +191,13 @@ const personalProjects = [
         goLive: 'https://chibgatullahminhaz.github.io/product-Card-Details-/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/product-Card-Details-',
     },
+    {
+        name: "Tools Application",
+        image:  'https://assets.skyfilabs.com/images/blog/top-10-essential-web-development-tools.webp',
+        description: "A simple Tools show webpage built using html , tailwind CSS and JavaScript ",
+        goLive: 'https://chibgatullahminhaz.github.io/Tools/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/Tools',
+    },
 ];
 
 function generateCard(cards) {
