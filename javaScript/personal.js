@@ -184,6 +184,13 @@ const personalProjects = [
         goLive: 'https://chibgatullahminhaz.github.io/Payoo-Online-Banking/',
         GoCode: 'https://github.com/ChibgatullahMinhaz',
     },
+    {
+        name: "Modern Smart Watch",
+        image:  './images/smartWatch.png',
+        description: "A Functional Classy Modern Smart Watch Card Details Page ,built using JavaScript DOM",
+        goLive: 'https://chibgatullahminhaz.github.io/product-Card-Details-/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/product-Card-Details-',
+    },
 ];
 
 function generateCard(cards) {
