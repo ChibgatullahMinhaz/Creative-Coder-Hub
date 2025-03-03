@@ -53,11 +53,11 @@ const personalProjects = [
     }
     ,
     {
-        name: "AuthenticateTelecom",
+        name: "DaeazMart",
         image: './images/telecom.png',
-        description: "A E-Commerce Website built using HTML, CSS and JavaScript ",
-        goLive: 'https://chibgatullahminhaz.github.io/authenticate-telecom/',
-        GoCode: 'https://github.com/ChibgatullahMinhaz/authenticate-telecom'
+        description: "A E-Commerce Website built using HTML, tailwind CSs and JavaScript ",
+        goLive: 'https://daeaz-mart.vercel.app/',
+        GoCode: ''
     }
     ,
     {
