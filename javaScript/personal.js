@@ -54,7 +54,7 @@ const personalProjects = [
     ,
     {
         name: "DaeazMart",
-        image: './images/telecom.png',
+        image: './images/daezmart.png',
         description: "A E-Commerce Website built using HTML, tailwind CSs and JavaScript ",
         goLive: 'https://daeaz-mart.vercel.app/',
         GoCode: ''
@@ -197,6 +197,13 @@ const personalProjects = [
         description: "A simple Tools show webpage built using html , tailwind CSS and JavaScript ",
         goLive: 'https://chibgatullahminhaz.github.io/Tools/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/Tools',
+    },
+    {
+        name: "Pero Tube",
+        image:  './images/ph-tube.png',
+        description: "A simple Video Striming Website built using html and javaScript api",
+        goLive: 'https://pero-tube.surge.sh',
+        GoCode: '',
     },
 ];
 
