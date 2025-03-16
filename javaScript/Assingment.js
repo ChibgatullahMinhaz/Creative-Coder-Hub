@@ -32,6 +32,14 @@ const Assingmentwork = [
         description: "A Assingmet porject built using html , tailwind and js DOM",
         goLive: 'https://chibgatullahminhaz.github.io/Dev-Board/',
         GoCode: 'https://github.com/ChibgatullahMinhaz/Dev-Board'
+    },
+    {
+        id: 6,
+        name: "Vocabulary Janala",
+        image:  'https://scontent.fcgp13-1.fna.fbcdn.net/v/t39.30808-6/484189766_666926375756655_5718503996115840784_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeF5julD1HPDJ5pKrmclytW9WUjVkBtm7xRZSNWQG2bvFH1cOow1qicBWN-WDNEZbLI8lIsoQePxTrsJGgBISLwc&_nc_ohc=JkDXz37cwJ0Q7kNvgEsuAt3&_nc_oc=Adg5x-yfZ4C_RZGbsWGug5VqfT72kipibLVh7OsOIxNcnm0z2ohGY1o3EfboQxYbyRw&_nc_zt=23&_nc_ht=scontent.fcgp13-1.fna&_nc_gid=ywLJxHY7e8w8OWc_to5_vg&oh=00_AYGwQvC5yPyux-wNZO6m4beQfE2L9dkHgO486SUvnkZewg&oe=67DCF2AD',
+        description: "A Assingmet Funtional Project built using  JavaScript Api ",
+        goLive: 'https://vocabulary-janala.surge.sh/',
+        GoCode: ''
     }
 ];
 
