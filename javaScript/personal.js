@@ -205,6 +205,13 @@ const personalProjects = [
         goLive: 'https://pero-tube.surge.sh',
         GoCode: '',
     },
+    {
+        name: "Country Tracker",
+        image:  './images/countryTracker.jpg',
+        description: "A Functional Website built using html and javaScript api",
+        goLive: 'https://chibgatullahminhaz.github.io/CountryTracker/',
+        GoCode: 'https://github.com/ChibgatullahMinhaz/CountryTracker',
+    },
 ];
 
 function generateCard(cards) {
